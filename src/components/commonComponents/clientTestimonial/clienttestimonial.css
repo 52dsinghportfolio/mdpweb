@@ -1,0 +1,76 @@
+
+
+
+
+
+
+
+.it_clienttestimonial_main .swiper-button-prev,
+.it_clienttestimonial_main .swiper-button-next {
+  color: var(--textblack);
+  transition: .5s;
+  border: 2px solid var(--borderbl);
+  width: 36px;
+  height: 36px;
+  transition: .5s;
+  transform: rotate(45deg);
+}
+
+.it_clienttestimonial_main .swiper-button-prev:after,
+.it_clienttestimonial_main .swiper-button-next:after {
+  font-size: 20px;
+  font-weight: bolder;
+  transition: .5s;
+}
+
+.it_clienttestimonial_main .swiper-button-prev {
+  left: -10%;
+}
+
+.it_clienttestimonial_main .swiper-button-next {
+  right: -10%;
+}
+
+.it_clienttestimonial_main:hover .swiper-button-prev {
+  left: 1%;
+}
+
+.it_clienttestimonial_main:hover .swiper-button-next {
+  right: 1%;
+}
+
+.it_clienttestimonial_main .swiper-button-prev:after,
+.it_clienttestimonial_main .swiper-button-next:after {
+  transform: rotate(-45deg);
+  font-size: 14px;
+}
+
+.it_clienttestimonial_main .swiper-button-prev:hover,
+.it_clienttestimonial_main .swiper-button-next:hover {
+  background: var(--bgblue);
+  border-color: var(--bgblue);
+  transition: .5s;
+  transform: rotate(-45deg);
+}
+
+.it_clienttestimonial_main .swiper-button-prev:hover:after,
+.it_clienttestimonial_main .swiper-button-next:hover:after {
+  transition: .5s;
+  transform: rotate(45deg);
+}
+
+.it_clienttestimonial_main .swiper-pagination-bullet {
+  background: var(--bgblack);
+  opacity: 1;
+  border-radius: 0px;
+  transition: .5s;
+  transform: rotate(45deg);
+}
+
+.it_clienttestimonial_main .swiper-pagination-bullet.swiper-pagination-bullet-active {
+  background: var(--bgblue);
+}
+
+
+
+
