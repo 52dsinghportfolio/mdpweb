@@ -68,7 +68,7 @@ export default function Testimonials() {
     autoplay: true,
     autoplaySpeed: 3000,
   };
-
+ 
   // 👉 Thumbnail settings
   const thumbSettings = {
     asNavFor: mainSlider,
@@ -78,8 +78,7 @@ export default function Testimonials() {
     focusOnSelect: true,
     arrows: false,
     infinite: true,
-    centerMode: true,
-    focusOnSelect: true,
+    centerMode: true, 
     vertical: true, // 👈 vertical mode 
     verticalSwiping: true, // 👈 importantautoplay: true,
     autoplaySpeed: 3000,
