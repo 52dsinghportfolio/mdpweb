@@ -35,6 +35,9 @@ export default function RoutesLink() {
         <>
             <div>
                 <Routes> 
+
+
+ {/* <Portfoliodetails */}
                     <Route path="/" element={<Home />} />
                     <Route path="/home" element={<Home />} />
                     <Route path="/aboutus" element={<Aboutus />} />
@@ -47,7 +50,7 @@ export default function RoutesLink() {
                     <Route path="/portfoliodetails" element={<Portfoliodetails />} />
                     <Route path="/profiledetails" element={<Profiledetails />} />
                     <Route path="*" element={<Errorpage />} />
-
+        
 
                     {/* ----------------- Civil page routers ----------------- */}
                     {/* ----------------- Civil page routers ----------------- */} 

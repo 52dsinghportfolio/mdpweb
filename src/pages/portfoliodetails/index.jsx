@@ -6,7 +6,7 @@ import Projectdetails from '../../components/portfolioComponents/projectDetails'
 import Heading from '../../components/commonComponents/heading';
 import Profileinfo from '../../components/commonComponents/profileInfo';
 
-
+ 
 
 export default function Portfoliodetails() {
     return (
