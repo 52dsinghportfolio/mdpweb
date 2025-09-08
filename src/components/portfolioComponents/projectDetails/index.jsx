@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 
-import projectdetailsimg from './../../../assets/images/projectdetails.jpeg';
-import projectcimg from './../../../assets/images/sliderimg1.jpg';
+// import projectdetailsimg from './../../../assets/images/projectdetails.jpeg';
+// import projectcimg from './../../../assets/images/sliderimg1.jpg';
 import widget_bannerimg from './../../../assets/images/widget_banner.jpg';
 
 

@@ -19,7 +19,7 @@ import Eletricialhome from '../pages/services/servicesItEletrical/home';
 import Civilhome from '../pages/services/servicesCivil/home';
 import Manufacturinghome from '../pages/services/servicesManufacturing/home';
 import Errorpage from '../pages/errorpage';
-import Portfoliodetails from '../pages/portfolioDetails';
+// import Portfoliodetails from '../pages/portfolioDetails';
 import Profiledetails from '../pages/profiledetails';
 import Certificates, { Civilcertificates } from '../pages/certificates';
 import Careerjob from '../pages/careerjob';
@@ -34,8 +34,8 @@ export default function RoutesLink() {
     return (
         <>
             <div>
-                <Routes> 
-
+                <Routes>  
+{/* <Portfoliodetails/> */}
 
  {/* <Portfoliodetails */}
                     <Route path="/" element={<Home />} />
@@ -47,9 +47,11 @@ export default function RoutesLink() {
                     <Route path="/career" element={<Career />} />
                     <Route path="/career/job-openings/" element={<Careerjob />} />
                     <Route path="/contactus" element={<Contactus />} />
-                    <Route path="/portfoliodetails" element={<Portfoliodetails />} />
+                    {/* <Route path="/portfoliodetails" element={<Portfoliodetails />} /> */}
                     <Route path="/profiledetails" element={<Profiledetails />} />
                     <Route path="*" element={<Errorpage />} />
+
+ 
         
 
                     {/* ----------------- Civil page routers ----------------- */}

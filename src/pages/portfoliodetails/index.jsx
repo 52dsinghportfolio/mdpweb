@@ -3,8 +3,8 @@ import './portfoliodetails.css';
 import Pagetitle from '../../components/commonComponents/pagetitle/pagetitle';
 import portfoliobg from './../../assets/images/portfoliotitle.avif';
 import Projectdetails from '../../components/portfolioComponents/projectDetails';
-import Heading from '../../components/commonComponents/heading';
-import Profileinfo from '../../components/commonComponents/profileInfo';
+// import Heading from '../../components/commonComponents/heading';
+// import Profileinfo from '../../components/commonComponents/profileInfo';
 
  
 
